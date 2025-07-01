@@ -1,0 +1,381 @@
+.nsave-pro-page {
+  min-height: 100vh;
+  background: #000;
+}
+
+/* NSave Pro Section */
+.nsave-pro {
+  min-height: 100vh;
+  position: relative;
+  background: #000;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 0 4rem;
+}
+
+.nsave-pro-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+
+.nsave-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1400px;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.nsave-left {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.statistics-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 2rem;
+}
+
+.stat-circle {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border: 2px solid #ff69b4;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+.stat-1 {
+  top: 0;
+  left: 0;
+  width: 140px;
+  height: 140px;
+}
+
+.stat-2 {
+  top: 20px;
+  right: 0;
+  width: 200px;
+  height: 200px;
+}
+
+.stat-content {
+  text-align: center;
+  padding: 1rem;
+}
+
+.stat-number {
+  display: block;
+  font-size: clamp(1.2rem, 2vw, 1.8rem);
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.stat-text {
+  display: block;
+  font-size: clamp(0.8rem, 1.2vw, 1rem);
+  color: #ccc;
+  line-height: 1.3;
+}
+
+.nsave-image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nsave-main-image {
+  position: relative;
+  z-index: 3;
+}
+.nsave-project-image {
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 0px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  border-bottom: 4px solid #f72ec5;
+  /* Fade corners */
+  -webkit-mask-image: 
+                      radial-gradient(circle at bottom left, transparent 0px, black 40px, black 90%, transparent 100%),
+                      radial-gradient(circle at bottom right, transparent 0px, black 40px, black 90%, transparent 100%);
+  -webkit-mask-composite: source-in;
+  mask-image: 
+              radial-gradient(circle at bottom left, transparent 0px, black 40px, black 90%, transparent 100%),
+              radial-gradient(circle at bottom right, transparent 0px, black 40px, black 90%, transparent 100%);
+  mask-composite: intersect;
+}
+
+.decorative-line {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.connecting-line-svg {
+  animation: float 4s ease-in-out infinite;
+}
+
+.nsave-right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.nsave-title-container {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.nsave-main-title {
+  font-size: clamp(4rem, 10vw, 8rem);
+  font-weight: 900;
+  color: #ff69b4;
+  line-height: 0.8;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.nsave-script-title {
+  position: absolute;
+  top: 80%;
+  right: 20%;
+  transform: translate(0, -50%);
+  font-family: "Brush Script MT", cursive;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  color: white;
+  margin: 0;
+  z-index: 3;
+  transform: translate(0, -50%) rotate(-20deg);
+}
+
+.nsave-subtitle-container {
+  margin-bottom: 1rem;
+}
+
+.nsave-subtitle {
+  font-size: clamp(1.2rem, 2vw, 1.8rem);
+  font-weight: 600;
+  color: white;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.underlined-text {
+  position: relative;
+  color: white;
+}
+
+.underlined-text::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: white;
+  border-radius: 1px;
+}
+
+.nsave-description {
+  max-width: 600px;
+  position: relative;
+}
+
+.nsave-description p {
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  color: white;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.underlined-text-2 {
+  position: relative;
+  color: white;
+}
+
+.underlined-text-2::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: white;
+  border-radius: 1px;
+}
+
+.decorative-elements-nsave {
+  position: absolute;
+  top: 20%;
+  right: -10%;
+  z-index: 4;
+}
+
+.finance-icon {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Animations */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .nsave-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+
+  .nsave-left {
+    order: 1;
+  }
+
+  .nsave-right {
+    order: 2;
+    align-items: center;
+  }
+
+  .statistics-container {
+    height: 150px;
+  }
+
+  .stat-1 {
+    width: 120px;
+    height: 120px;
+  }
+
+  .stat-2 {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nsave-pro {
+    padding: 5rem 0 2rem;
+  }
+
+  .nsave-main-title {
+    font-size: clamp(3rem, 12vw, 5rem);
+  }
+
+  .nsave-script-title {
+    font-size: clamp(2rem, 8vw, 3rem);
+    right: -15%;
+  }
+
+  .nsave-subtitle {
+    font-size: clamp(1rem, 3vw, 1.4rem);
+  }
+
+  .nsave-description {
+    max-width: none;
+  }
+
+  .statistics-container {
+    height: 120px;
+    margin-bottom: 1rem;
+  }
+
+  .stat-1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto 1rem;
+  }
+
+  .stat-2 {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .nsave-project-image {
+    max-width: 250px;
+    max-height: 320px;
+  }
+
+  .decorative-line {
+    display: none;
+  }
+
+  .decorative-elements-nsave {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .nsave-content {
+    padding: 0 1rem;
+  }
+
+  .nsave-main-title {
+    font-size: clamp(2.5rem, 15vw, 4rem);
+  }
+
+  .nsave-script-title {
+    font-size: clamp(1.8rem, 10vw, 2.5rem);
+  }
+
+  .statistics-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: auto;
+    align-items: center;
+  }
+
+  .stat-1,
+  .stat-2 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+  }
+
+  .nsave-project-image {
+    max-width: 200px;
+    max-height: 280px;
+  }
+}

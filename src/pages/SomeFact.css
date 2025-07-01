@@ -1,0 +1,498 @@
+.some-fact-page {
+  min-height: 100vh;
+  background: #000;
+}
+
+/* Some Fact Section */
+.some-fact {
+  min-height: 100vh;
+  position: relative;
+  background: #000;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 0 4rem;
+}
+
+.some-fact-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.doodle-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(2px 2px at 20px 30px, rgba(255, 255, 255, 0.1), transparent),
+    radial-gradient(1px 1px at 40px 70px, rgba(255, 255, 255, 0.05), transparent),
+    radial-gradient(1px 1px at 90px 40px, rgba(255, 255, 255, 0.08), transparent);
+  background-repeat: repeat;
+  background-size: 150px 150px;
+  opacity: 0.3;
+}
+
+.some-fact-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1400px;
+  padding: 0 2rem;
+}
+
+.some-fact-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+.speaker-img2 {
+  position: absolute;
+  top: -80px;      /* Adjust as needed */
+  left: 80px;      /* Adjust as needed */
+  width: 400px;    /* Adjust size as needed */
+  height: auto;
+  z-index: 0;      /* Behind content */
+  pointer-events: none;
+}
+.content-layout {
+  position: relative;
+  z-index: 1;      /* Above speaker */
+}
+.some-fact-title {
+  font-size: clamp(0rem, 10vw, 6rem);
+  font-weight: 900;
+  color: #ff69b4;
+  line-height: 0.8;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.megaphone-icon {
+  animation: float 3s ease-in-out infinite;
+}
+
+.content-layout {
+    position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.phone-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.phone-mockup-fact {
+  position: relative;
+  transform: rotate(-5deg);
+}
+
+.phone-screen-fact {
+  width: 280px;
+  height: 560px;
+  background: white;
+  border-radius: 30px;
+  padding: 15px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  border: 3px solid #333;
+  position: relative;
+  overflow: hidden;
+}
+
+.phone-screen-fact::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 5px;
+  background: #333;
+  border-radius: 3px;
+  z-index: 10;
+}
+
+.screen-header-fact {
+  padding: 25px 15px 15px;
+}
+
+.status-bar-fact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.signal-battery {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.signal,
+.battery {
+  width: 18px;
+  height: 12px;
+  background: #333;
+  border-radius: 2px;
+}
+
+.instagram-content {
+  padding: 0 15px;
+  height: calc(100% - 60px);
+  overflow: hidden;
+}
+.fact-item.fact-1 .fact-img {
+  display: block;
+  width: 48px;      /* Adjust size as needed */
+  height: 48px;
+  object-fit: cover;
+
+}
+.fact-item.fact-2 .fact-img {
+  display: block;
+  width: 48px;      /* Adjust size as needed */
+  height: 48px;
+  object-fit: cover;
+
+}
+.fact-item.fact-3 .fact-img {
+  display: block;
+  width: 48px;      /* Adjust size as needed */
+  height: 48px;
+  object-fit: cover;
+
+}
+.fact-item.fact-4 .fact-img {
+  width: 120px;      /* Adjust size as needed */
+  height: 120px;
+  object-fit: contain;
+}
+.fact-item.fact-5 .fact-img {
+  display: block;
+  width: 128px;      /* Adjust size as needed */
+  height: 128px;
+  object-fit: contain;
+
+}
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.profile-info {
+  display: flex;
+  gap: 15px;
+  flex: 1;
+}
+
+.profile-avatar {
+  flex-shrink: 0;
+}
+
+.avatar-circle {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.profile-details {
+  flex: 1;
+}
+
+.profile-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  margin: 0 0 5px 0;
+}
+
+.profile-bio {
+  font-size: 14px;
+  color: #666;
+  margin: 0 0 8px 0;
+  font-weight: 500;
+}
+
+.profile-description {
+  font-size: 11px;
+  color: #888;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.profile-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+}
+
+.instagram-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  margin-bottom: 15px;
+}
+
+.grid-item {
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.grid-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.grid-image:hover {
+  transform: scale(1.05);
+}
+
+.instagram-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+}
+
+.tab-icon {
+  color: #999;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.tab-icon.active {
+  color: #333;
+}
+
+.phone-annotation {
+  position: absolute;
+  bottom: -50px;
+  left: -80px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.annotation-text {
+  color: white;
+  font-size: 14px;
+  line-height: 1.4;
+  font-style: italic;
+  margin: 0;
+}
+
+.facts-section {
+  position: relative;
+  width: 100%;
+  min-height: 350px; /* Adjust as needed */
+}
+
+.fact-item {
+  position: absolute;
+  max-width: 180px; /* Adjust as needed */
+}
+
+.fact-1 { top: -90px; left: -20%; }
+.fact-2 { top: 100px; left: 20%; }
+.fact-3 { top: -80px; left: 55%; }
+.fact-4 { top: 180px; left: 56%; }
+.fact-5 { top: 220px; left: -20%; }
+.fact-icon {
+  flex-shrink: 0;
+  animation: float 3s ease-in-out infinite;
+}
+
+.fact-1 .fact-icon {
+  animation-delay: 0s;
+}
+
+.fact-2 .fact-icon {
+  animation-delay: 0.5s;
+}
+
+.fact-3 .fact-icon {
+  animation-delay: 1s;
+}
+
+.fact-4 .fact-icon {
+  animation-delay: 1.5s;
+}
+
+.fact-5 .fact-icon {
+  animation-delay: 2s;
+}
+
+.fact-text {
+  color: white;
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  line-height: 1.6;
+  margin: 0;
+  font-style: italic;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/* Animations */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .content-layout {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+
+  .phone-section {
+    order: 1;
+  }
+
+  .facts-section {
+    order: 2;
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .fact-item {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .some-fact {
+    padding: 5rem 0 2rem;
+  }
+
+  .some-fact-title {
+    font-size: clamp(3rem, 12vw, 5rem);
+  }
+
+  .phone-screen-fact {
+    width: 240px;
+    height: 480px;
+    padding: 12px;
+  }
+
+  .phone-screen-fact::before {
+    width: 60px;
+    height: 4px;
+    top: 16px;
+  }
+
+  .profile-description {
+    font-size: 10px;
+  }
+
+  .facts-section {
+    gap: 2rem;
+  }
+
+  .fact-text {
+    font-size: 1rem;
+  }
+
+  .phone-annotation {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .some-fact-content {
+    padding: 0 1rem;
+  }
+
+  .some-fact-header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .phone-screen-fact {
+    width: 200px;
+    height: 400px;
+    padding: 10px;
+  }
+
+  .avatar-circle {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .profile-name {
+    font-size: 14px;
+  }
+
+  .profile-bio {
+    font-size: 12px;
+  }
+
+  .profile-description {
+    font-size: 9px;
+  }
+
+  .stat-number {
+    font-size: 16px;
+  }
+
+  .fact-text {
+    font-size: 0.9rem;
+  }
+}
