@@ -118,7 +118,7 @@ function IntroSection() {
             <div className="photo-container">
 
           </div>
-            <img src="public/IMG_9874.JPG" alt="Qirrat Azam" className="intro-photo" />
+            <img src="/IMG_9874.JPG" alt="Qirrat Azam" className="intro-photo" />
           </div>
           <div className="hello-text">Hello!</div>
         </div>
@@ -204,7 +204,7 @@ function EducationSection() {
           </div>
 
           <div className="education-center">
-            <img src="public/baw.jpeg" alt="Esraa M" className="education-photo" />
+            <img src="/baw.jpeg" alt="Esraa M" className="education-photo" />
           </div>
 
           <div className="education-right">
@@ -242,7 +242,7 @@ function ExperienceSection() {
   return (
     <section className="experience">
       <div className="experience-background">
-        <img src="public/bdb.jpeg" alt="Qirrat" className="experience-bg-image" />
+        <img src="/bdb.jpeg" alt="Qirrat" className="experience-bg-image" />
         <div className="experience-overlay"></div>
       </div>
 
@@ -322,7 +322,7 @@ function SkillsSection() {
   return (
     <section className="skills">
       <div className="skills-background">
-        <img src="/colors.jpg" alt="Qirrat" className="skills-bg-image" />
+        <img src="/colors.jpg" alt="Colors" className="skills-bg-image" />
       </div>
 
       <div className="skills-content">
@@ -400,7 +400,7 @@ function PortfolioSection() {
   return (
     <section id="portfolio" className="portfolio">
       <div className="portfolio-background">
-        <img src="public/bg3.png" alt="Portfolio Background" className="portfolio-bg-image" />
+        <img src="/bg3.png" alt="Portfolio Background" className="portfolio-bg-image" />
         <div className="portfolio-overlay"></div>
       </div>
 
@@ -427,7 +427,7 @@ function PortfolioSection() {
           <div className="project-card">
             <div className="project-image">
               <div className="project-placeholder project-1">
-                <img src="public/Allure1.png" alt="E-commerce app" className="allure" />
+                <img src="/Allure1.png" alt="E-commerce app" className="allure" />
               </div>
             </div>
             <h4 className="project-title">1- Allure</h4>
@@ -436,7 +436,7 @@ function PortfolioSection() {
           <div className="project-card">
             <div className="project-image">
               <div className="project-placeholder project-2">
-            <img src="public/scolar.png" alt="Education app" className="allure" />
+            <img src="/scolar.png" alt="Education app" className="allure" />
               </div>
             </div>
             <h4 className="project-title">2- Scholar Sync</h4>
@@ -445,7 +445,7 @@ function PortfolioSection() {
           <div className="project-card">
             <div className="project-image">
               <div className="project-placeholder project-3">
-            <img src="public/devx.png" alt="Education app" className="allure" />
+            <img src="/devx.png" alt="Education app" className="allure" />
                
               </div>
             </div>
@@ -455,7 +455,7 @@ function PortfolioSection() {
           <div className="project-card">
             <div className="project-image">
               <div className="project-placeholder project-4">
-             <img src="public/adviso.png" alt="Education app" className="allure" />
+             <img src="/adviso.png" alt="Education app" className="allure" />
 
               </div>
             </div>
@@ -465,7 +465,7 @@ function PortfolioSection() {
           <div className="project-card">
             <div className="project-image">
               <div className="project-placeholder project-5">
-                 <img src="public/squid2.png" alt="Education app" className="allure" />
+                 <img src="/squid2.png" alt="Education app" className="allure" />
 
                 <div className="personal-photo">
                   <div className="photo-frame"></div>

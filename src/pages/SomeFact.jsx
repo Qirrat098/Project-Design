@@ -14,7 +14,7 @@ function SomeFactSection() {
   return (
     <section className="some-fact">
       <div className="nsave-pro-background">
-     <img src="public/bg3.png" alt="Hoppy Horizon Project" className="hoppy-bg-image" />
+     <img src="/bg3.png" alt="Hoppy Horizon Project" className="hoppy-bg-image" />
       </div>
 
 
@@ -43,7 +43,7 @@ function SomeFactSection() {
                     <div className="profile-info">
                       <div className="profile-avatar">
                         <div className="avatar-circle">
-                    <img src="public/circle.jpg" alt="Qirrat A" className="avatar-img" />
+                    <img src="/circle.jpg" alt="Qirrat A" className="avatar-img" />
                         </div>
                       </div>
                       <div className="profile-details">
@@ -67,31 +67,31 @@ function SomeFactSection() {
 
                   <div className="instagram-grid">
                     <div className="grid-item">
-                      <img src="public/Insta1.jpeg?height=100&width=100" alt="Instagram post 1" className="grid-image" />
+                      <img src="/Insta1.jpeg?height=100&width=100" alt="Instagram post 1" className="grid-image" />
                     </div>
                     <div className="grid-item">
-                      <img src="public/Insta2.jpeg?height=100&width=100" alt="Instagram post 2" className="grid-image" />
+                      <img src="/Insta2.jpeg?height=100&width=100" alt="Instagram post 2" className="grid-image" />
                     </div>
                     <div className="grid-item">
-                      <img src="public/Insta3.jpeg?height=100&width=100" alt="Instagram post 3" className="grid-image" />
+                      <img src="/Insta3.jpeg?height=100&width=100" alt="Instagram post 3" className="grid-image" />
                     </div>
                     <div className="grid-item">
-                      <img src="public/Insta4.jpeg?height=100&width=100" alt="Instagram post 4" className="grid-image" />
+                      <img src="/Insta4.jpeg?height=100&width=100" alt="Instagram post 4" className="grid-image" />
                     </div>
                     <div className="grid-item">
-                      <img src="public/Insta5.jpeg?height=100&width=100" alt="Instagram post 5" className="grid-image" />
+                      <img src="/Insta5.jpeg?height=100&width=100" alt="Instagram post 5" className="grid-image" />
                     </div>
                     <div className="grid-item">
-                      <img src="public/Insta6.jpeg?height=100&width=100" alt="Instagram post 6" className="grid-image" />
+                      <img src="/Insta6.jpeg?height=100&width=100" alt="Instagram post 6" className="grid-image" />
                     </div>
                     <div className="grid-item">
-                      <img src="public/Insta7.jpeg?height=100&width=100" alt="Instagram post 7" className="grid-image" />
+                      <img src="/Insta7.jpeg?height=100&width=100" alt="Instagram post 7" className="grid-image" />
                     </div>
                     <div className="grid-item">
-                      <img src="public/Insta8.jpeg?height=100&width=100" alt="Instagram post 8" className="grid-image" />
+                      <img src="/Insta8.jpeg?height=100&width=100" alt="Instagram post 8" className="grid-image" />
                     </div>
                     <div className="grid-item">
-                      <img src="public/Insta9.jpeg?height=100&width=100" alt="Instagram post 9" className="grid-image" />
+                      <img src="/Insta9.jpeg?height=100&width=100" alt="Instagram post 9" className="grid-image" />
                     </div>
                   </div>
 
@@ -173,7 +173,7 @@ function SomeFactSection() {
             </div>
 
             <div className="fact-item fact-3">
-                <img src="public/Wave.jpeg" alt="Therapy" className="fact-img" />
+                <img src="/Wave.jpeg" alt="Therapy" className="fact-img" />
               <p className="fact-text">
                 My kind of therapy, no
                 appointment needed
@@ -181,7 +181,7 @@ function SomeFactSection() {
             </div>
 
             <div className="fact-item fact-4">
-               <img src="public/Girl.jpeg" alt="Therapy" className="fact-img" />
+               <img src="/Girl.jpeg" alt="Therapy" className="fact-img" />
               <p className="fact-text">
                 My secret
                 brainstorming ritual (or
@@ -190,7 +190,7 @@ function SomeFactSection() {
             </div>
 
             <div className="fact-item fact-5">
-               <img src="public/Rose.jpeg" alt="Therapy" className="fact-img" />
+               <img src="/Rose.jpeg" alt="Therapy" className="fact-img" />
               <p className="fact-text">
                 Nature's way of
                 <br />

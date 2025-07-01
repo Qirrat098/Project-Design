@@ -15,7 +15,7 @@ function ThanksSection() {
   return (
     <section id="contact"className="thanks">
       <div className="nsave-pro-background">
-     <img src="public/bg3.png" alt="Hoppy Horizon Project" className="hoppy-bg-image" />
+     <img src="/bg3.png" alt="Hoppy Horizon Project" className="hoppy-bg-image" />
       </div>
 
       <div className="thanks-content">
@@ -30,7 +30,7 @@ function ThanksSection() {
               <div className="orbital-ring ring-1"></div>
               <div className="orbital-ring ring-2"></div>
               <div className="profile-photo">
-                <img src="public/mirror2.png" alt="Qirrat Azam" className="profile-image" />
+                <img src="/mirror2.png" alt="Qirrat Azam" className="profile-image" />
               </div>
               <div className="decorative-stars">
                 <div className="star star-1">

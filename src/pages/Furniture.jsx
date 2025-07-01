@@ -15,7 +15,7 @@ function FurnitureSection() {
   return (
     <section className="furniture">
       <div className="nsave-pro-background">
-     <img src="public/bg3.png" alt="Hoppy Horizon Project" className="hoppy-bg-image" />
+     <img src="/bg3.png" alt="Hoppy Horizon Project" className="hoppy-bg-image" />
       </div>
 
 
@@ -27,7 +27,7 @@ function FurnitureSection() {
                 <div className="screen-content">
                   {/* Replace this placeholder with your actual furniture app image */}
                   <img
-                    src="public/Adviso.jpeg"
+                    src="/Adviso.jpeg"
                     alt="Furniture App Interface"
                     className="furniture-app-image"
                   />

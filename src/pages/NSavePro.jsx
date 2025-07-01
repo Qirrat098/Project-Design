@@ -14,7 +14,7 @@ function NSaveProSection() {
   return (
     <section className="nsave-pro">
       <div className="nsave-pro-background">
-     <img src="public/bg3.png" alt="Hoppy Horizon Project" className="hoppy-bg-image" />
+     <img src="/bg3.png" alt="Hoppy Horizon Project" className="hoppy-bg-image" />
       </div>
 
       <div className="nsave-content">
@@ -37,7 +37,7 @@ function NSaveProSection() {
             {/* Replace this placeholder with your single image */}
             <div className="nsave-main-image">
               <img
-                src="public/hand.png"
+                src="/hand.png"
                 alt="NSave Pro App Interface"
                 className="nsave-project-image"
               />

@@ -14,7 +14,7 @@ function AlloraStoreSection() {
   return (
     <section className="allora-store">
       <div className="nsave-pro-background">
-     <img src="public/bg3.png" alt="Hoppy Horizon Project" className="hoppy-bg-image" />
+     <img src="/bg3.png" alt="Hoppy Horizon Project" className="hoppy-bg-image" />
       </div>
 
       <div className="allora-content">
@@ -41,34 +41,34 @@ function AlloraStoreSection() {
           <div className="phone-mockups-allora">
             <div className="phone-mockup-allora phone-1-allora">
               <div className="phone-screen-allora1">
-             <img src="public/dev1.png" alt="Homepage" className="phone-image" />
+             <img src="/dev1.png" alt="Homepage" className="phone-image" />
              </div>
               <div className="phone-label-allora">Homepage</div>
             </div>
 
             <div className="phone-mockup-allora phone-2-allora">
                <div className="phone-screen-allora2">
-             <img src="public/dev2.png" alt="Homepage" className="phone-image" />
+             <img src="/dev2.png" alt="Homepage" className="phone-image" />
              </div>
               <div className="phone-label-allora">Modules</div>
             </div>
 
             <div className="phone-mockup-allora phone-3-allora">
               <div className="phone-screen-allora3">
-             <img src="public/dev4.jpeg" alt="Homepage" className="phone-image" />
+             <img src="/dev4.jpeg" alt="Homepage" className="phone-image" />
              </div>
               <div className="phone-label-allora">Agenda</div>
             </div>
             <div className="phone-mockup-allora phone-4-allora">
             <div className="phone-screen-allora4">
-             <img src="public/dev3.jpeg" alt="Homepage" className="phone-image" />
+             <img src="/dev3.jpeg" alt="Homepage" className="phone-image" />
              </div>
               <div className="phone-label-allora">Registration page</div>
             </div>
             </div>
            <div className="phone-mockup-allora phone-5-allora">
            <div className="phone-screen-allora5">
-             <img src="public/dev5.png" alt="Homepage" className="phone-image" />
+             <img src="/dev5.png" alt="Homepage" className="phone-image" />
              </div>
               <div className="phone-label-allora">Modules Info</div>
             </div>

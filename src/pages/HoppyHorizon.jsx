@@ -15,7 +15,7 @@ function HoppyHorizonSection() {
   return (
     <section className="hoppy-horizon">
       <div className="hoppy-horizon-background">
-        <img src="public/bg3.png" alt="Hoppy Horizon Project" className="hoppy-bg-image" />
+        <img src="/bg3.png" alt="Hoppy Horizon Project" className="hoppy-bg-image" />
         <div className="hoppy-overlay"></div>
       </div>
 
@@ -50,21 +50,21 @@ function HoppyHorizonSection() {
           <div className="phone-mockups">
            <div className="phone-mockup phone-1">
   <div className="phone-screen">
-    <img src="public/a2.png" alt="Homepage" className="phone-image" />
+    <img src="/a2.png" alt="Homepage" className="phone-image" />
   </div>
   <div className="phone-label">Homepage</div>
 </div>
 
             <div className="phone-mockup phone-2">
               <div className="phone-screen">
-                <img src="public/a3.png" alt="Chat Space" className="phone-image2" />
+                <img src="/a3.png" alt="Chat Space" className="phone-image2" />
               </div>
               <div className="phone-label">Chat space</div>
             </div>
 
             <div className="phone-mockup phone-3">
              <div className="phone-screen">
-                <img src="public/a1.png" alt="Chat Space" className="phone-image2" />
+                <img src="/a1.png" alt="Chat Space" className="phone-image2" />
               </div>
               <div className="phone-label">Splash</div>
             </div>
