@@ -48,7 +48,7 @@ function HeroSection() {
 
         <div className="hero-main">
           <div className="image-container">
-            <img src="public/Qirrat.png" alt="Qirrat - UI/UX Designer" className="hero-image" />
+            <img src="/Qirrat.png" alt="Qirrat - UI/UX Designer" className="hero-image" />
             <div className="decorative-arrow"></div>
             <div className="decorative-arrow2"></div>
 
@@ -322,7 +322,7 @@ function SkillsSection() {
   return (
     <section className="skills">
       <div className="skills-background">
-        <img src="public/colors.jpg" alt="Qirrat" className="skills-bg-image" />
+        <img src="/colors.jpg" alt="Qirrat" className="skills-bg-image" />
       </div>
 
       <div className="skills-content">
