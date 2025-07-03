@@ -1,3 +1,7 @@
+body, html {
+  overflow-x: hidden;
+}
+
 .home {
   min-height: 100vh;
 }
@@ -207,6 +211,7 @@
 }
 
 .portfolio-text {
+  font-family: "Inter", sans-serif;
   font-size: clamp(4rem, 50vw, 14rem);
   padding-top: 400px;
   font-weight: 900;
@@ -220,13 +225,14 @@
 }
 
 .name-script {
+  font: "Comic Sans MS";
   position: absolute;
   top: 5;
   right: 2%;
   font-family: "Brush Script MT", cursive;
   font-size: clamp(2rem, 5vw, 4rem);
   color: #ff69b4;
-  transform: rotate(-5deg);
+  transform: rotate(-15deg);
   opacity: 0.9;
   z-index: 7;
 }
@@ -278,10 +284,17 @@
   .hero-image {
     width: 250px;
     height: 350px;
+ 
   }
 
   .decorative-arrow {
-    top: -20px;
+    top: 70px;
+    left: -40px;
+    width: 60px;
+    height: 60px;
+  }
+  .decorative-arrow2 {
+    top: 80px;
     left: -40px;
     width: 60px;
     height: 60px;
@@ -297,15 +310,29 @@
     border-top: 4px solid transparent;
     border-bottom: 4px solid transparent;
   }
+    .decorative-arrow2::before {
+    width: 30px;
+    height: 30px;
+  }
+
+  .decorative-arrow2::after {
+    border-left: 6px solid #ff69b4;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+  }
+
 
   .portfolio-text {
-    font-size: clamp(2.5rem, 18vw, 6rem);
+    font-size: clamp(2.5rem, 16vw, 5rem);
+    top: -55px;
   }
 
   .name-script {
-    font-size: clamp(1.2rem, 10vw, 2.5rem);
-    top: -10%;
-    right: -15%;
+    font: "Comic Sans MS";
+    font-size: clamp(1.2rem, 8vw, 2.5rem);
+    top: 70%;
+    right: 7%;
+    color: #ffffff;
   }
 }
 .about {
@@ -1927,7 +1954,7 @@
   }
 
   .portfolio-main-title {
-    font-size: clamp(2.5rem, 15vw, 4rem);
+    font-size: clamp(2.5rem, 15vw, 4rem); 
   }
 
   .portfolio-script-title {

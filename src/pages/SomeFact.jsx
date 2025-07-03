@@ -36,14 +36,14 @@ function SomeFactSection() {
                       <div className="battery"></div>
                     </div>
                   </div>
-                </div>
+                </div> 
 
                 <div className="instagram-content">
                   <div className="profile-header">
                     <div className="profile-info">
                       <div className="profile-avatar">
                         <div className="avatar-circle">
-                    <img src="/circle.jpg" alt="Qirrat A" className="avatar-img" />
+                    <img src="/circle.JPG" alt="Qirrat A" className="avatar-img" />
                         </div>
                       </div>
                       <div className="profile-details">
