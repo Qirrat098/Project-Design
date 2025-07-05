@@ -703,7 +703,7 @@ body, html {
   }
 
   .cassette-decoration {
-    padding-left: 110px;
+    padding-left: 130px;
     position: relative;
     top: 3rem;
     right: 0;
@@ -753,6 +753,14 @@ body, html {
 
   .about-description {
     font-size: 0.9rem;
+  }
+    .cassette-decoration {
+    padding-left: 130px;
+    position: relative;
+    top: 3rem;
+    right: 0;
+    display: flex;  
+    justify-content: center;
   }
 
   .cassette-svg {
