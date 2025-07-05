@@ -592,14 +592,12 @@ body, html {
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 3rem;
-    font-family: "Comic Sans MS", cursive, sans-serif;
 
 }
 
 .name-highlight {
   color: white;
   display: block;
-    font-family: "Comic Sans MS", cursive, sans-serif;
 
 }
 
@@ -616,7 +614,6 @@ body, html {
   font-weight: 700;
   color: white;
   margin-bottom: 1.5rem;
-    font-family: "Comic Sans MS", cursive, sans-serif;
 
   letter-spacing: 0.1em;
 }
