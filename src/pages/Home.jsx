@@ -93,7 +93,7 @@ function HeroSection() {
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />
-            </svg>
+            </svg> 
             <a href="qiratazam123@gmail.com" className="email-link-about">
               qiratazam123@gmail.com
             </a>
@@ -204,7 +204,7 @@ function EducationSection() {
           </div>
 
           <div className="education-center">
-            <img src="/baw.jpeg" alt="Esraa M" className="education-photo" />
+            <img src="/baw.jpeg" alt="Qirrat Azam" className="education-photo" />
           </div>
 
           <div className="education-right">
