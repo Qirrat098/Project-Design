@@ -461,12 +461,26 @@
 }
 
 @media (max-width: 480px) {
+  .some-fact {
+    padding: 4rem 0 12rem;
+  }
   .some-fact-content {
-    padding: 0 1rem;
+    padding: 20 1rem 40;
+  }
+  .some-fact-title{
+    font-size: clamp(2rem, 12vw, 4rem);
   }
   .annotation-text {
     font-family: "Comic Sans MS", cursive, sans-serif;
   }
+  .speaker-img2{
+    margin-top: 90px; /* Adjust as needed */
+    margin-left: -50px;
+  }
+   .content-layout{
+    margin-top: 230px;
+   }
+
 
   .some-fact-header {
     flex-direction: column;
@@ -478,30 +492,74 @@
     height: 400px;
     padding: 10px;
   }
+  .time{
+    font-size: 10px;
+  }
+  .signal-battery{
+    height: 12px;
+    width: 30px;
+  }
 
   .avatar-circle {
-    width: 50px;
+    width: 50px; 
     height: 50px;
     font-size: 20px;
   }
 
   .profile-name {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .profile-bio {
     font-size: 12px;
   }
 
+  .fact-img{
+    width: 30px;      /* Adjust size as needed */
+    height: 30px;
+    object-fit: cover;
+    margin-left: 60px;
+    margin-top: 30px;
+  }
   .profile-description {
     font-size: 9px;
+    width: 350%;
+    margin-left: -80px;
+  }
+  .fact-1{
+    top: -30px;
+    left: -10%;
+  }
+  .fact-2{
+    top: 150px;
+    left: 20%;
   }
 
+  .fact-3{
+    top: -55px;
+    left: 50%;
+  }
+  .fact-4{
+    top: 230px;
+    left: 40%;
+  }
+  .fact-5{
+    top: 230px;
+    left: -20%;
+    
+  }
+  .fact-item {
+    margin-left: 30px;
+  }
   .stat-number {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .fact-text {
     font-size: 0.9rem;
+  }
+  .instagram-tabs{
+    flex-direction: row;
+    margin-top: -8px;
   }
 }

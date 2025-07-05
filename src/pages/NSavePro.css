@@ -343,6 +343,8 @@
   .decorative-elements-nsave {
     display: none;
   }
+
+
 }
 
 @media (max-width: 480px) {
@@ -357,7 +359,9 @@
   .nsave-script-title {
       font-family: "Comic Sans MS", cursive, sans-serif;
 
-    font-size: clamp(1.8rem, 10vw, 2.5rem);
+    font-size: clamp(1.8rem, 9vw, 2.5rem);
+    margin-right: 115px;
+    margin-top: 20px;
   }
 
   .statistics-container {
@@ -368,15 +372,26 @@
     align-items: center;
   }
 
-  .stat-1,
-  .stat-2 {
-    position: relative;
-    width: 120px;
-    height: 120px;
-    top: 0;
+  .stat-1{
+     position: relative;
+    width: 150px;
+    height: 150px;
+    top: 50px;
     left: 0;
     right: 0;
     margin: 0;
+  }
+  .stat-2 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 80px;
+    left: 0;
+    right: 0;
+    margin: 0;
+  }
+  .stat-text{
+    font-size: clamp(1.1rem, 2vw, 1rem);
   }
 
   .nsave-project-image {

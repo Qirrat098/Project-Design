@@ -755,7 +755,7 @@ body, html {
     font-size: 0.9rem;
   }
     .cassette-decoration {
-    padding-left: 130px;
+    padding-left: 100px;
     position: relative;
     top: 3rem;
     right: 0;
@@ -1382,7 +1382,7 @@ body, html {
   top: 450px;
 }
 .exp-circle-bottom {
-  bottom: 190px;
+  bottom: 290px;
 }
    .job-responsibilities li {
     font-weight: 400;
@@ -2101,7 +2101,7 @@ body, html {
   min-height: 80vw;
  }
   .project-image {
-  width: 110%;
+  width: 100%;
   height: 320px; /* Increase this value as needed */
   
 }

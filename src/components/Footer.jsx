@@ -6,8 +6,7 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>Qirrat A</h3>
-            <p>UI/UX Designer passionate about creating beautiful and functional digital experiences.</p>
+         
           </div>
           <div className="footer-section">
             <h4>Quick Links</h4>

@@ -785,34 +785,40 @@
 
 @media (max-width: 480px) {
   .allora-content {
-    padding: 0 1rem;
+    padding: 2 1rem;
   }
 
   .phone-mockups-allora {
     height: 400px;
+    margin-left: 40px;
   }
   .allora-script-title{
       font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: clamp(1.5rem, 6vw, 2.5rem);
+    margin-right: 120px;
 
   }
 
   .phone-1-allora {
-    transform: rotate(-5deg);
+    transform: rotate(-10deg);
   }
 
   .phone-2-allora {
-    transform: rotate(3deg);
+    transform: rotate(2deg);
   }
 
   .phone-3-allora {
-    transform: rotate(5deg);
+    transform: rotate(13deg);
+    margin-right: -40px;
+    margin-top: 0px;
   }
 
   .phone-4-allora {
-    transform: rotate(-3deg);
+    transform: rotate(-15deg);
   }
 
   .phone-5-allora {
-    transform: rotate(2deg);
+    transform: rotate(15deg);
+    margin-left: 20px;
   }
 }

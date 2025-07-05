@@ -138,7 +138,7 @@ function SomeFactSection() {
                 <br />
                  I illustrate mine. 
               </p>
-            </div>
+            </div> 
           </div>
 
           <div className="facts-section">
