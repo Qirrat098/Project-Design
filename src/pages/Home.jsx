@@ -122,7 +122,7 @@ function IntroSection() {
           </div>
           <div className="hello-text">Hello!</div>
         </div>
-
+ 
         <div className="intro-right">
           <h2 className="intro-title">
             My Name is

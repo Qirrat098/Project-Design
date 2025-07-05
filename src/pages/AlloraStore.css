@@ -56,11 +56,12 @@
 }
 
 .allora-script-title {
+
   position: absolute;
   top: 90%;
   right: -20%;
   transform: translate(0, -50%);
-  font-family: "Brush Script MT", cursive;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 90px; 
   color: white;
   margin: 0;
@@ -749,6 +750,8 @@
   }
 
   .allora-script-title {
+      font-family: "Comic Sans MS", cursive, sans-serif;
+
     font-size: clamp(2rem, 8vw, 3rem);
     right: -20%;
   }
@@ -787,6 +790,10 @@
 
   .phone-mockups-allora {
     height: 400px;
+  }
+  .allora-script-title{
+      font-family: "Comic Sans MS", cursive, sans-serif;
+
   }
 
   .phone-1-allora {

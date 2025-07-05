@@ -110,7 +110,7 @@ function ThanksSection() {
                   fill="none"
                   strokeLinecap="round"
                 />
-                <text x="10" y="50" fill="#ff69b4" fontSize="16" fontFamily="Brush Script MT, cursive">
+                <text x="10" y="50" fill="#ff69b4" fontSize="16" fontFamily="Comic Sans MS, cursive, sans-serif">
                   Qirrat Azam
                 </text>
               </svg>

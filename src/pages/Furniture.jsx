@@ -56,7 +56,7 @@ function FurnitureSection() {
           <div className="furniture-title-container">
             <h1 className="furniture-main-title">Adviso</h1>
             <h2 className="furniture-script-title">Trusted by businesses and entrepreneurs</h2>
-          </div>
+          </div> 
 
           <div className="furniture-description">
             <p>

@@ -23,7 +23,7 @@ function AlloraStoreSection() {
             <h1 className="allora-main-title">DevX</h1>
             <h2 className="allora-script-title">#2025</h2>
           </div> 
-
+ 
           <div className="allora-description">
             <div className="step-icon">
               <svg width="30" height="30" viewBox="0 0 30 30" fill="none">

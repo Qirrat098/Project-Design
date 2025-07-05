@@ -161,6 +161,7 @@
 }
 
 .nsave-script-title {
+  font-family: "Comic Sans MS", cursive, sans-serif;
   position: absolute;
   top: 80%;
   right: 20%;
@@ -295,6 +296,8 @@
   .nsave-script-title {
     font-size: clamp(2rem, 8vw, 3rem);
     right: -15%;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+
   }
 
   .nsave-subtitle {
@@ -352,6 +355,8 @@
   }
 
   .nsave-script-title {
+      font-family: "Comic Sans MS", cursive, sans-serif;
+
     font-size: clamp(1.8rem, 10vw, 2.5rem);
   }
 

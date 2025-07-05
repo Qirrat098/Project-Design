@@ -311,6 +311,7 @@
 }
 
 .phone-annotation {
+  
   position: absolute;
   bottom: -50px;
   left: -80px;
@@ -320,6 +321,7 @@
 }
 
 .annotation-text {
+    font-family: "Comic Sans MS", cursive, sans-serif;
   color: white;
   font-size: 14px;
   line-height: 1.4;
@@ -432,6 +434,10 @@
     height: 4px;
     top: 16px;
   }
+  .annotation-text{
+      font-family: "Comic Sans MS", cursive, sans-serif;
+
+  }
 
   .profile-description {
     font-size: 10px;
@@ -457,6 +463,9 @@
 @media (max-width: 480px) {
   .some-fact-content {
     padding: 0 1rem;
+  }
+  .annotation-text {
+    font-family: "Comic Sans MS", cursive, sans-serif;
   }
 
   .some-fact-header {

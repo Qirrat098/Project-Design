@@ -193,6 +193,8 @@
 
 .furniture-script-title {
   position: absolute;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
   top: 10%;
   right:-35%;
   transform: translate(0, -50%);
@@ -299,6 +301,8 @@
   }
 
   .furniture-script-title {
+      font-family: "Comic Sans MS", cursive, sans-serif;
+
     font-size: clamp(2rem, 8vw, 3rem);
     right: -15%;
   }
@@ -347,6 +351,8 @@
   }
 
   .furniture-script-title {
+      font-family: "Comic Sans MS", cursive, sans-serif;
+
     font-size: clamp(1.8rem, 10vw, 2.5rem);
   }
 

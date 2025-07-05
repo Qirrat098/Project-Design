@@ -36,7 +36,7 @@ function SomeFactSection() {
                       <div className="battery"></div>
                     </div>
                   </div>
-                </div> 
+                </div>  
 
                 <div className="instagram-content">
                   <div className="profile-header">
@@ -136,7 +136,7 @@ function SomeFactSection() {
               <p className="annotation-text">
                 Some people write ideas.
                 <br />
-                 I illustrate mine.
+                 I illustrate mine. 
               </p>
             </div>
           </div>

@@ -530,8 +530,8 @@ body, html {
 .intro-right {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align to left */
-  text-align: left;        /* Align text to left */
+  align-items: flex-start; 
+  text-align: left;       
   padding-right: 0;
 }
 
@@ -679,6 +679,8 @@ body, html {
 
   .hello-text {
     font-size: 2.5rem;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+
   }
 
   .intro-title {
@@ -714,6 +716,8 @@ body, html {
 
   .hello-text {
     font-size: 2rem;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+
   }
 
   .intro-title {
@@ -1663,6 +1667,7 @@ body, html {
 
 .portfolio-script-title {
   position: absolute;
+    font-family: "Comic Sans MS", cursive, sans-serif;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -1919,12 +1924,13 @@ body, html {
   }
 
   .portfolio-main-title {
-    font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: clamp(3rem, 12vw, 5rem);
   }
 
   .portfolio-script-title {
     font-size: clamp(2rem, 8vw, 3rem);
+      font-family: "Comic Sans MS", cursive, sans-serif;
+
   }
 
   .project-image {
@@ -1940,7 +1946,7 @@ body, html {
   .portfolio {
     padding: 2rem 0;
   }
-
+ 
   .portfolio-projects {
     grid-template-columns: 1fr;
     gap: 1rem;
@@ -1957,12 +1963,13 @@ body, html {
 
   .portfolio-main-title {
     font-size: clamp(2.5rem, 15vw, 4rem); 
-    font-family: "Comic Sans MS", cursive, sans-serif;
 
   }
 
   .portfolio-script-title {
     font-size: clamp(1.5rem, 10vw, 2.5rem);
+      font-family: "Comic Sans MS", cursive, sans-serif;
+
   }
 
   .quote-main {

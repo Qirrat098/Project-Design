@@ -49,11 +49,12 @@
 }
 
 .thanks-script-title {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
   position: absolute;
   top: 80%;
   right: 10%;
   transform: translate(0, -50%);
-  font-family: "Brush Script MT", cursive;
   font-size: clamp(2.5rem, 6vw, 5rem);
   color: #ff69b4;
   margin: 0;
@@ -267,7 +268,10 @@
     text-align: center;
     margin-left: 0;
   }
+  .thanks-script-title{
+      font-family: "Comic Sans MS", cursive, sans-serif;
 
+  }
   .signature {
     align-self: center;
     margin-right: 0;
@@ -284,6 +288,8 @@
   }
 
   .thanks-script-title {
+      font-family: "Comic Sans MS", cursive, sans-serif;
+
     font-size: clamp(2rem, 8vw, 3rem);
     right: 5%;
   }
@@ -324,6 +330,8 @@
   }
 
   .thanks-script-title {
+      font-family: "Comic Sans MS", cursive, sans-serif;
+
     font-size: clamp(1.8rem, 10vw, 2.5rem);
   }
 
