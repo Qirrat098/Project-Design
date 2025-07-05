@@ -225,7 +225,7 @@ body, html {
 }
 
 .name-script {
-  font: "Comic Sans MS";
+  font-family: "Comic Sans MS", cursive, sans-serif;
   position: absolute;
   top: 5;
   right: 2%;
@@ -328,7 +328,7 @@ body, html {
   }
 
   .name-script {
-    font: "Comic Sans MS";
+    font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: clamp(1.2rem, 8vw, 2.5rem);
     top: 70%;
     right: 7%;
@@ -574,6 +574,7 @@ body, html {
 }
 
 .hello-text {
+  font-family: "Comic Sans MS", cursive, sans-serif;
   font-family: "Brush Script MT", cursive;
   padding-left: 300px;
   font-size: 3rem;
@@ -1918,6 +1919,7 @@ body, html {
   }
 
   .portfolio-main-title {
+    font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: clamp(3rem, 12vw, 5rem);
   }
 
@@ -1955,6 +1957,8 @@ body, html {
 
   .portfolio-main-title {
     font-size: clamp(2.5rem, 15vw, 4rem); 
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
   }
 
   .portfolio-script-title {

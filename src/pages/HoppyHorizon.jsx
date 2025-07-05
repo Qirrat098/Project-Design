@@ -24,7 +24,7 @@ function HoppyHorizonSection() {
           <div className="hoppy-title-container">
             <h1 className="hoppy-main-title">Allur</h1>
             <h2 className="hoppy-script-title">Discover the latest trends. Style, Simplified.</h2>
-          </div>
+          </div> 
 
           <div className="hoppy-description">
             <p>

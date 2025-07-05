@@ -126,7 +126,7 @@ function IntroSection() {
         <div className="intro-right">
           <h2 className="intro-title">
             My Name is
-            <br />
+            <br /> 
             <span className="name-highlight">Qirrat Azam</span>
           </h2>
 

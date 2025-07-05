@@ -64,6 +64,7 @@
 
 .hoppy-main-title {
   font-size: clamp(4rem, 10vw, 8rem);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 900;
   color: #ff69b4;
   line-height: 0.8;
@@ -72,12 +73,13 @@
 }
 
 .hoppy-script-title {
+
   position: absolute;
   font-size: 30px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Brush Script MT", cursive;
+    font-family: "Comic Sans MS", cursive, sans-serif;
   color: white;
   margin: 0;
   z-index: 3;
@@ -553,6 +555,7 @@
 
   .hoppy-script-title {
     font-size: clamp(2rem, 8vw, 3rem);
+    font-family: "Comic Sans MS", cursive, sans-serif;
   }
 
   .hoppy-description {
@@ -587,8 +590,10 @@
   .hoppy-content {
     padding: 0 1rem;
   }
-
-  .phone-mockups {
+   .hoppy-script-title {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  .phone-mockups { 
     height: 300px;
   }
 
