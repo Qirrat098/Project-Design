@@ -1370,6 +1370,20 @@ body, html {
   .job-title {
     font-size: 0.95rem;
   }
+    .exp-circle-top {
+  top: 250px;
+}
+
+.exp-circle-mid1 {
+  top: 350px;
+}
+
+.exp-circle-mid2 {
+  top: 450px;
+}
+.exp-circle-bottom {
+  bottom: 190px;
+}
    .job-responsibilities li {
     font-weight: 400;
     margin-left: -20px;
@@ -2107,12 +2121,14 @@ body, html {
 
   .portfolio-main-title {
     font-size: clamp(2.5rem, 15vw, 4rem); 
+    text-align: center;
 
   }
 
   .portfolio-script-title {
     font-size: clamp(1.5rem, 10vw, 2.5rem);
       font-family: "Comic Sans MS", cursive, sans-serif;
+      text-align: center;
 
   }
 
