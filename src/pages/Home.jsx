@@ -223,11 +223,11 @@ function EducationSection() {
             <div className="          ">
               <h3 className="Certificate-title">Certificates </h3>
               <div className="Certificate-item1">
-                <span className="arrow">{">  "}</span>
+                <span className="arrow1">{">  "}</span>
                 <span> Google UX Design Certified - Jan 2025 </span>
               </div>
-              <div className="Certificate-item">
-                <span className="arrow">{">  "}</span>
+              <div className="Certificate-item1">
+                <span className="arrow1">{">  "}</span>
                 <span> Generative AI - Sept 2024</span>
               </div>
             </div>
@@ -237,15 +237,15 @@ function EducationSection() {
       </div>
     </section>
   )
-}
+}  
 function ExperienceSection() {
-  return (
-    <section className="experience">
-      <div className="experience-background">
+  return (  
+    <section className="experience"> 
+      <div className="experience-background"> 
         <img src="/bdb.jpeg" alt="Qirrat" className="experience-bg-image" />
         <div className="experience-overlay"></div>
       </div>
-
+         
       <div className="experience-content">
         <div className="camera-decoration">
           <svg width="180" height="160" viewBox="0 0 80 60" fill="none" className="camera-svg">
